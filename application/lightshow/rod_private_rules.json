@@ -1,0 +1,44 @@
+{
+    "general": {
+        "name":"rod",
+        "description":"",
+        "creator":"Fluffy Wirefly (natakon)",
+        "owner":"Bonesdog",
+        "last_owner":"Bonesdog",
+        "group":"Sabastian's Work community",
+        "share": "FALSE",
+        "click_to": "default",
+        "anyone_can_move": "FALSE",
+        "next_owner_can_modify": "TRUE",
+        "next_owner_can_copy": "TRUE",
+        "next_owner_can_transfer": "FALSE"
+    },
+    "object": {
+        "locked": "FALSE",
+        "physical": "FALSE",
+        "temporary": "FALSE",
+        "phantom": "FALSE",
+        "position": {
+            "x":"160",
+            "y":"37",
+            "z":"3365"   
+        },
+        "size": {
+            "x":"0.15750",
+            "y":"5.82736",
+            "z":"0.94497"
+        },
+        "rotation": {
+            "x":"0",
+            "y":"0",
+            "z":"0"   
+        }
+    },
+    "features": {
+        "physics_shape_type":"convex_hull",
+        "physics_material_type":"wood",
+        "gravity":"1.000",
+        "friction":"0.600",
+        "density":null   
+    }        
+}
