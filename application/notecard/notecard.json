@@ -23,7 +23,6 @@
 		"parameters": [
 			"key_name"
 		],
-		"return":"key_handle",
+		"return":"key_handle"
 	}
-
 ]
