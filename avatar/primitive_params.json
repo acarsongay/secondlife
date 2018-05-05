@@ -1,0 +1,8 @@
+[
+	{
+		"enable":false,
+		"flag":"PRIM_TYPE_LEGACY",
+		"integer":1,
+		"description":"Sets the prim's shape (legacy mode, DEPRECATED). 	[ 1, integer flag ] + flag_parameters"
+	}
+]

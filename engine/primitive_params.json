@@ -1,0 +1,167 @@
+[
+	{
+		"flag":"PRIM_TYPE_LEGACY",
+		"integer":1,
+		"description":"Sets the prim's shape (legacy mode, DEPRECATED). 	[ 1, integer flag ] + flag_parameters"
+	},
+	{
+		"flag":"PRIM_MATERIAL",
+		"integer":2,
+		"description":"Sets the prim's material. 	[ PRIM_MATERIAL, integer flag ]"
+	},
+	{
+		"flag":"PRIM_PHYSICS",
+		"integer":3,
+		"description":"Sets the object's physics status. 	[ PRIM_PHYSICS, integer boolean ]"
+	},
+	{
+		"flag":"PRIM_TEMP_ON_REZ",
+		"integer":4,
+		"description":"Sets the object's temporary attribute. 	[ PRIM_TEMP_ON_REZ, integer boolean ]"
+	},
+	{
+		"flag":"PRIM_PHANTOM",
+		"integer":5,
+		"description":"Sets the object's phantom status. 	[ PRIM_PHANTOM, integer boolean ]"
+	},
+	{
+		"flag":"PRIM_POSITION",
+		"integer":6,
+		"description":"Sets the prim's position. 	[ PRIM_POSITION, vector position ]"
+	},
+	{
+		"flag":"PRIM_SIZE",
+		"integer":7,
+		"description":"Sets the prim's size. 	[ PRIM_SIZE, vector size ]"
+	},
+	{
+		"flag":"PRIM_ROTATION",
+		"integer":8,
+		"description":"Sets the prim's global rotation. 	[ PRIM_ROTATION, rotation rot ]"
+	},
+	{
+		"flag":"PRIM_TYPE",
+		"integer":9,
+		"description":"Sets the prim's shape. 	[ PRIM_TYPE, integer flag ] + flag_parameters"
+	},
+	{
+		"flag":"PRIM_TEXTURE",
+		"integer":17,
+		"description":"Sets the prim's texture attributes. 	[ PRIM_TEXTURE, integer face, string texture, vector repeats, vector offsets, float rotation_in_radians ]"
+	},
+	{
+		"flag":"PRIM_COLOR",
+		"integer":18,
+		"description":"Sets the face's color. 	[ PRIM_COLOR, integer face, vector color, float alpha ]"
+	},
+	{
+		"flag":"PRIM_BUMP_SHINY",
+		"integer":19,
+		"description":"Sets the face's shiny & bump. 	[ PRIM_BUMP_SHINY, integer face, integer shiny, integer bump ]"
+	},
+	{
+		"flag":"PRIM_FULLBRIGHT",
+		"integer":20,
+		"description":"Sets the face's full bright flag. 	[ PRIM_FULLBRIGHT, integer face, integer boolean ]"
+	},
+	{
+		"flag":"PRIM_FLEXIBLE",
+		"integer":21,
+		"description":"Sets the prim as flexible. 	[ PRIM_FLEXIBLE, integer boolean, integer softness, float gravity, float friction, float wind, float tension, vector force ]"
+	},
+	{
+		"flag":"PRIM_TEXGEN",
+		"integer":22,
+		"description":"Sets the face's texture mode. 	[ PRIM_TEXGEN, integer face, integer type ]"
+	},
+	{
+		"flag":"PRIM_POINT_LIGHT",
+		"integer":23,
+		"description":"Sets the prim as a point light. 	[ PRIM_POINT_LIGHT, integer boolean, vector color, float intensity, float radius, float falloff ]"
+	},
+	{
+		"flag":"PRIM_CAST_SHADOWS",
+		"integer":24,
+		"description":"Sets the prim's cast shadow attribute. (DEPRECATED) 	[ PRIM_CAST_SHADOWS, integer boolean ]"
+	},
+	{
+		"flag":"PRIM_GLOW",
+		"integer":25,
+		"description":"Sets the face's glow attribute. 	[ PRIM_GLOW, integer face, float intensity ]"
+	},
+	{
+		"flag":"PRIM_TEXT",
+		"integer":26,
+		"description":"Sets the prim's floating text. 	[ PRIM_TEXT, string text, vector color, float alpha ]"
+	},
+	{
+		"flag":"PRIM_NAME",
+		"integer":27,
+		"description":"Sets the prim's name. 	[ PRIM_NAME, string name ]"
+	},
+	{
+		"flag":"PRIM_DESC",
+		"integer":28,
+		"description":"Sets the prim's description. 	[ PRIM_DESC, string description ]"
+	},
+	{
+		"flag":"PRIM_ROT_LOCAL",
+		"integer":29,
+		"description":"Sets the prim's local rotation. 	[ PRIM_ROT_LOCAL, rotation rot ]"
+	},
+	{
+		"flag":"PRIM_PHYSICS_SHAPE_TYPE",
+		"integer":30,
+		"description":"Sets the prim's physics shape type. 	[ PRIM_PHYSICS_SHAPE_TYPE, integer type ]"
+	},
+	{
+		"flag":"PRIM_OMEGA",
+		"integer":32,
+		"description":"Sets the prim's spin to the specified axis and rate. 	[ PRIM_OMEGA, vector axis, float spinrate, float gain ]"
+	},
+	{
+		"flag":"PRIM_POS_LOCAL",
+		"integer":33,
+		"description":"Sets the prim's local position. 	[ PRIM_POS_LOCAL, vector position ]"
+	},
+	{
+		"flag":"PRIM_LINK_TARGET",
+		"integer":34,
+		"description":"Sets the next linknumber to use in the linkset. 	[ PRIM_LINK_TARGET, integer link_target ]"
+	},
+	{
+		"flag":"PRIM_SLICE",
+		"integer":35,
+		"description":"Sets the prim's slice (a shape attribute). 	[ PRIM_SLICE, vector slice ]"
+	},
+	{	
+		"flag":"PRIM_SPECULAR",
+		"integer":36,
+		"description":"Sets the prim's specular map attributes. 	[ PRIM_SPECULAR, integer face, string texture, vector repeats, vector offsets, float rotation_in_radians, vector color, integer glossiness, integer environment ]"
+	},
+	{	
+		"flag":"PRIM_NORMAL",
+		"integer":37,
+		"description":"Sets the prim's normal map attributes. 	[ PRIM_NORMAL, integer face, string texture, vector repeats, vector offsets, float rotation_in_radians ]"
+	},
+	{	
+		"flag":"PRIM_ALPHA_MODE" ,
+		"integer":38,
+		"description":"Sets the prim's diffuse texture alpha rendering mode attributes. 	[ PRIM_ALPHA_MODE, integer face, integer alpha_mode, integer mask_cutoff ]"
+	},
+	{	
+		"flag":"PRIM_ALLOW_UNSIT",
+		"integer":39,
+		"description":"Avatars are allowed to manually stand up when seated on this prim. Only valid for prims in a valid experience. 	[ PRIM_ALLOW_UNSIT, integer flag ]"
+	},
+	{	
+		"flag":"PRIM_SCRIPTED_SIT_ONLY",
+		"integer":40,
+		"description":"Avatars are not permitted to manually sit on this prim. 	[ PRIM_SCRIPTED_SIT_ONLY, integer flag ]"
+	},
+	{	
+		"flag":"PRIM_SIT_TARGET",
+		"integer":41,
+		"description":"The sit target, if any defined for this prim. 	[ PRIM_SIT_TARGET, integer active, vector offset, rotation rot ]"
+	}
+]
