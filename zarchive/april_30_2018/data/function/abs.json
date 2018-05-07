@@ -1,6 +1,0 @@
-{
-	"type":"integer",
-	"name":"abs",
-	"parameters":"integer_val",
-	"return": "|integer_val|"
-}

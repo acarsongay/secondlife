@@ -1,0 +1,28 @@
+[
+	{
+		"type":"function",
+		"name":"lindon_lab_notecard_line",
+		"parameters": [
+			"string_name",
+			"integer_line"
+		],
+		"example": "function lindon_lab_notecard_line notecard.json 0",
+		"return":"key_handle",
+	},
+	{
+		"type":"function",
+		"name":"lindon_lab_number_of_notecard_lines",
+		"parameters": [
+			"string_name"
+		],
+		"return":"key_handle",
+	},
+	{
+		"type":"function",
+		"name":"lindon_lab_number_of_notecard_lines_key_name",
+		"parameters": [
+			"key_name"
+		],
+		"return":"key_handle"
+	}
+]

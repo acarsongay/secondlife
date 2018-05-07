@@ -1,8 +1,0 @@
-{
-	"string_json":{
-		"type":"string"
-	},
-	"list_specifiers":{
-		"type":"list"
-	}
-}
