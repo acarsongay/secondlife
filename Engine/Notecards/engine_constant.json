@@ -1,8 +1,52 @@
 [
 	{
+		"key":"active",
+        "value":"0x2",
+        "type":"constant",
+        "default":"0x2",
+		"flag":"ACTIVE",
+		"unicode":"U+FDDO",
+		"url_encoded":"%EF%B7%90",
+		"html_encoded":"&#xFDD0;",
+		"description": [
+				{
+					"key":"lindon_lab_detected_type",
+					"description":"Physical tasks. (Physical objects & agents)"
+				},
+				{
+					"key": [ "lindon_lab_sensor" , "lindon_lab_sensor_repeat" ],
+					"description": "Physical objects that are moving or objects containing an active script. Thus, it is using SL server resources now."
+				}
+		],
+        "caption":""
+	},
+	{
+		"key":"json_invalid",
+        "value":"﷐",
+		"type":"constant",
+		"flag":"JSON_INVALID",
+		"unicode":"U+FDDO",
+		"url_encoded":"%EF%B7%90",
+		"html_encoded":"&#xFDD0;",
+		"description":"Value returned when inputs are not well formed.",
+		"caption":"Invalid json structure"
+	},
+	{
+		"key":"json_object",
+		"value":"﷑",
+		"type":"constant",
+		"flag":"JSON_OBJECT",
+		"unicode":"U+FDD1",
+		"url_encoded":"%EF%B7%91",
+		"html_encoded":"&#xFDD1;",
+		"description":"",
+		"caption":""
+	},
+	{
 		"flag":"PRIM_TYPE_LEGACY",
 		"integer":1,
-		"description":"Sets the prim's shape (legacy mode, DEPRECATED). 	[ 1, integer flag ] + flag_parameters"
+		"description":"Sets the prim's shape (legacy mode, DEPRECATED). 	[ 1, integer flag ] + flag_parameters",
+		"caption":""
 	},
 	{
 		"flag":"PRIM_MATERIAL",

@@ -1,0 +1,96 @@
+{
+    "*": {
+        "require": {
+            "key":"",
+            "value":"",
+            "type":"",
+            "default":"",
+            "description":"",
+            "caption":""
+        }
+    },
+    "constant": {
+        "require": {
+            "flag":"",
+        }
+    },
+    "event": {
+
+    },
+    "function": {
+
+    },
+    "library": {
+
+    },
+    "rule": {
+
+    },
+    "type": {
+        "require": {
+            "value":["float","integer","key","list","rotation","string","vector","function","event","constant"]
+        },
+        "default": "string"
+    },
+    "float": {
+        "key":"float",
+        "value":0.0,
+        "require": {
+            "range":[1.401298464E-45,3.402823466E+38],
+            "valid_characters":["0","1","2","3","4","5","6","7","8","9",".","E","-","+"]
+        },
+        "default":0.0
+    },
+    "range": {
+        "require": { 
+            "min":"",
+            "max":"",
+            "type":["float","integer"]
+        },
+        "default":["min","max"]
+    },
+    
+    "integer": {
+    },
+    "key": {
+    },
+    "list": {
+    },
+    "rotation": {
+    },
+    "string": {
+    },
+    "vector": {
+    },
+    
+    "name": { 
+    },
+    "parameters": { 
+    },
+    
+    "string_name": {
+    },
+    "integer_line": {
+    },
+    "key_name": {
+    }, 
+    "key_handle": {
+    },
+    
+    "example": {
+    },
+
+    "function": {
+    },
+    "return": {
+    },
+    "lindon_lab_notecard_line": {
+    },
+    "lindon_lab_number_of_notecard_lines": {
+    },
+    "lindon_lab_number_of_notecard_lines_key_name": {
+        "test":"TEST"
+    },
+    "test":"TesT"
+    
+}

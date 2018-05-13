@@ -1,0 +1,15 @@
+{
+	"custom":{
+		"this" : {
+			"type":"function",
+			"name":"this",
+			"return":"this",
+			"key":"this",
+	        "value":"this",
+	        "description":"Reffers to the current key selected",
+	        "caption":"This key name",
+	        "type":"syntax",
+	        "default":"this"
+		}
+	}
+}

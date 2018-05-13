@@ -1,0 +1,10 @@
+[
+	{
+		"type":"event",
+		"name":"dataserver",
+		"parameters": [
+			"key_queryid",
+			"string_data"
+		]
+	}
+]

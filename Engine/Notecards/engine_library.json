@@ -1,6 +1,24 @@
 {
+    "key": {
+        "type":"library",
+        "key":"key",
+        "value":"",
+        "description":"",
+        "caption":"",
+        "type":"syntax",
+        "default":"",
+        "description":"",
+        "caption":""
+    },
     "value": {
-        "description":""
+        "key":"this",
+        "value":"",
+        "description":"",
+        "caption":"",
+        "type":"syntax",
+        "default":"",
+        "description":"",
+        "caption":""
     },
     
     "type": {
